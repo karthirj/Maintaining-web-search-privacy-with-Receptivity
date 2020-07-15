@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+
+	<servlet>	
+		<servlet-name>LocationDetails</servlet-name>
+		<servlet-class>com.pmse.admin.LocationDetails</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LocationDetails</servlet-name>
+		<url-pattern>/LocationDetails</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>ContentDetails</servlet-name>
+		<servlet-class>com.pmse.admin.ContentDetails</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ContentDetails</servlet-name>
+		<url-pattern>/ContentDetails</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>PostingsDetails</servlet-name>
+		<servlet-class>com.pmse.admin.PostingsDetails</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PostingsDetails</servlet-name>
+		<url-pattern>/PostingsDetails</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>DeletePostings</servlet-name>
+		<servlet-class>com.pmse.admin.DeletePostings</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeletePostings</servlet-name>
+		<url-pattern>/DeletePostings</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.pmse.admin.AdminLogin</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>SimpleSearch</servlet-name>
+		<servlet-class>com.pmse.user.SimpleSearch</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SimpleSearch</servlet-name>
+		<url-pattern>/SimpleSearch</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.pmse.user.UserLogin</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>PersonalSearch</servlet-name>
+		<servlet-class>com.pmse.user.PersonalSearch</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PersonalSearch</servlet-name>
+		<url-pattern>/PersonalSearch</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.pmse.util.Logout</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>	
+	</servlet-mapping>
+	
+	
+</web-app>
